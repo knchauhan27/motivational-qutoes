@@ -1,0 +1,76 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Quote Box */
+.quote {
+  margin: 15px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Big Center Box */
+.bigbox {
+  width: 90%;
+  max-width: 1000px;
+  height: 500px;
+  margin: 30px auto;
+  padding: 20px;
+
+  border: 2px solid white;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1c1c1c;
+}
+
+/* Button Styling */
+button {
+  background-color: white;
+  color: #212121;
+  height: 50px;
+  width: 160px;
+
+  border: none;
+  border-radius: 50px;
+
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: #212121;
+  color: white;
+  border: 2px solid white;
+}
+
+.author {
+  background-color: #333333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
